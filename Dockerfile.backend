@@ -1,0 +1,19 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+# Copy requirements and install dependencies
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the rest of the backend application code
+COPY main.py agent.py gcp-key.json ./
+
+# Expose the FastAPI port
+EXPOSE 8000
+
+# Set the environment variable for Google Cloud credentials inside the container
+ENV GOOGLE_APPLICATION_CREDENTIALS=/app/gcp-key.json
+
+# Run the Uvicorn server
+CMD ["python", "-m", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]

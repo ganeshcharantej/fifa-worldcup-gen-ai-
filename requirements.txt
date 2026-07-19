@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+streamlit
+google-antigravity
+google-cloud-bigquery
