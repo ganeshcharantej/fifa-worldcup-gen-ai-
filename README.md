@@ -1,4 +1,4 @@
-# 🏟️ FIFA 2026 Multilingual Fan Concierge
+<img width="1276" height="765" alt="image" src="https://github.com/user-attachments/assets/92c97d92-959f-4f89-aa73-4ec98bcca4ad" /># 🏟️ FIFA 2026 Multilingual Fan Concierge
 
 An AI-powered stadium routing agent designed to help fans navigate FIFA 2026 World Cup venues. This application utilizes a generative AI agent to process natural language requests, query physical stadium routes from a cloud data warehouse, and fetch live wait times for dynamic routing.
 
@@ -23,6 +23,7 @@ This repository serves as a practical demonstration of integrating Generative AI
 
 ## 💻 Local Development
 This project uses Docker to run the frontend and backend microservices in isolated environments.
+<img width="1276" height="765" alt="image" src="https://github.com/user-attachments/assets/fe321c6c-27c1-4c7d-b7f9-fa2d549a2819" />
 
 1. **Clone the repository:**
    ```bash
