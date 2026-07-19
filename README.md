@@ -1,4 +1,4 @@
-🏟️ FIFA 2026 Multilingual Fan Concierge
+##🏟️ FIFA 2026 Multilingual Fan Concierge
 An AI-powered stadium routing agent designed to help fans navigate FIFA 2026 World Cup venues. This application utilizes a generative AI agent to process natural language requests, query physical stadium routes from a cloud data warehouse, and fetch live wait times for dynamic routing.
 
 🚀 Tech Stack
